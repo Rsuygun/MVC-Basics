@@ -1,0 +1,12 @@
+@model String[]
+
+<div class="display-6">
+    Index 2
+</div>
+<div class="lead">
+    @* "@" işaretinden sonra C# kodları yazabiliriz. *@
+    @foreach(string name in Model)
+    {
+       <p>@name</p>
+    }
+</div>
