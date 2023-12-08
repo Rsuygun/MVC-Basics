@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\MVC2\\Basics\\Basics.csproj",
+      "projectUniqueName": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Basics\\Basics.csproj",
       "projectName": "Basics",
-      "projectPath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\MVC2\\Basics\\Basics.csproj",
+      "projectPath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Basics\\Basics.csproj",
       "packagesPath": "C:\\Users\\rsuyg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\MVC2\\Basics\\obj\\",
+      "outputPath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Basics\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rsuyg\\AppData\\Roaming\\NuGet\\NuGet.Config",
