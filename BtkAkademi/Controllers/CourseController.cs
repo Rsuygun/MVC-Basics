@@ -1,3 +1,4 @@
+using BtkAkademi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BtkAkademi.Controllers
@@ -9,6 +10,15 @@ namespace BtkAkademi.Controllers
             return View();
         }
         public IActionResult Apply()
+        {
+            return View();
+        }
+        // Biz "HttpPost" olarak tanımlamazsak "HttpGet" olarak kabul eder.
+        [HttpPost]
+        // Formu güvenli hale getirmek için hangi 
+        // tarayıcıyla bağlantı kurduğunu doğrulayacak bir mekanizma eklemesi yaptık.
+        [ValidateAntiForgeryToken]
+        public IActionResult Apply([FromForm]Candidate model)
         {
             return View();
         }
