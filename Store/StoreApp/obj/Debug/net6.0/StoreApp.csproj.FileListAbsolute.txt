@@ -24,3 +24,5 @@ C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debu
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.pdb
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.genruntimeconfig.cache
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\ref\StoreApp.dll
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.RazorAssemblyInfo.cache
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.RazorAssemblyInfo.cs
