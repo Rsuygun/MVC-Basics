@@ -71,3 +71,7 @@ C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debu
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\System.CodeDom.dll
