@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WtlmcF8tinU+Fx1pGBReRYUA5CuB8ZrjQjM3Isl/LqgKl46qWfDF+XLhyjLaKKRR6j+yZ78ldqNmUfMeQkfFPg==",
+  "dgSpecHash": "ejbNPFSbz/DOzDUTSaPUkWoI+N3J0975LoQKMNb/SQh8u1WiVUhQi0vw33k3xx6PMMw72+62AZ2hmm7MeusIjQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\StoreApp.csproj",
+  "projectFilePath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rsuyg\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.3\\microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
