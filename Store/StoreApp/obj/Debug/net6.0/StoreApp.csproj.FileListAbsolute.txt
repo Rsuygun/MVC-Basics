@@ -76,3 +76,4 @@ C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debu
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.genruntimeconfig.cache
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\obj\Debug\net6.0\ref\StoreApp.dll
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
