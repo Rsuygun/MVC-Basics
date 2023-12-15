@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\images\\computer.jpg",
+      "PackagePath": "staticwebassets\\images\\computer.jpg"
+    },
+    {
       "Id": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

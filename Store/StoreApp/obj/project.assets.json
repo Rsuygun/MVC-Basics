@@ -574,6 +574,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -1304,10 +1314,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.3"
@@ -1339,7 +1355,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

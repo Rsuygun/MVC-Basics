@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Entities.Models;
 // Bu kurulan yapı veri tabanı işlemi görecek şekilde ayarlandı.
 namespace StoreApp.Models
 {

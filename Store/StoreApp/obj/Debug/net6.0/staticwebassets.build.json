@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vdIF4kclRknafJCC1znFFM04UpUzUR9HfqFcSz5koms=",
+  "Hash": "tCB2RyRNKfl4dxpKpmfG3rVEO2mGpCup0XXIX6BGl/Y=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    },
+    {
+      "Identity": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\images\\computer.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/computer.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\computer.jpg"
     },
     {
       "Identity": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
