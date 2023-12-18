@@ -9,9 +9,8 @@
       "StoreApp/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3"
+          "Repositories": "1.0.0"
         },
         "runtime": {
           "StoreApp.dll": {}
@@ -427,6 +426,16 @@
         "runtime": {
           "Entities.dll": {}
         }
+      },
+      "Repositories/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3"
+        },
+        "runtime": {
+          "Repositories.dll": {}
+        }
       }
     }
   },
@@ -640,6 +649,11 @@
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
     "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

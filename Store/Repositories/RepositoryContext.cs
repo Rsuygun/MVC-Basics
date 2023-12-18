@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Entities.Models;
-// Bu kurulan yapı veri tabanı işlemi görecek şekilde ayarlandı.
-namespace StoreApp.Models
+
+namespace Repositories
 {
     public class RepositoryContext : DbContext
     {
