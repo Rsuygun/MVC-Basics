@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/rsuyg/OneDrive/Masaüstü/Rsuygun/Odev-Ders/MVC/Store/StoreApp/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/rsuyg/OneDrive/Masaüstü/Rsuygun/Odev-Ders/MVC/Store/StoreApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
