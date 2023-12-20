@@ -1,17 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
-using Repositories;
 using Services.Contracts;
 
 namespace StoreApp.Components
 {
-    public class ProductSummary : ViewComponent
+    public class ProductSummaryViewComponent : ViewComponent
     {
         // Örnek olarak 100 ürünümüz var fakat 20 tanesi satışta değil.
         // Fakat biz bu fonksiyonu kullaranak 100 ürününde görüntülemesini yaparız.
         // Bu durum bize problemler yaratır.
+        //Bu yapının kullanılması daha sağlıklı olacaktır.
         private readonly IServiceManager _manager;
 
-        public ProductSummary(IServiceManager manager)
+        public ProductSummaryViewComponent(IServiceManager manager)
         {
             _manager = manager;
         }
@@ -20,6 +20,5 @@ namespace StoreApp.Components
         {
             return _manager.ProductService.GetAllProducts(false).Count().ToString(); 
         }
-        //Bu yapının kullanılması daha sağlıklı olacaktır.
     }
 }
