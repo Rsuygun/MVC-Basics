@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tq3NhtAZ7q6VtAzLnm1TGXt5S950uH2h6KJGqlrIPc/UvV6UXQX939BD7N79/ESxajMO8izo3IDySz+w0ZLnvQ==",
+  "dgSpecHash": "upb+tvKUjEYoMk6IVGHQfcfthwdv8TVy+bEhuGxzQclrZwx2ofQ3mHFbYgcHcTSo6pXgCppMpAnAe3Z9Wl3T8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\Services\\Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rsuyg\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\rsuyg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.3\\microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

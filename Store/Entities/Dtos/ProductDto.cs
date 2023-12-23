@@ -4,10 +4,10 @@ namespace Entities.Dtos
 {
     public record ProductDto
     {
-        public int ProductId { get; set; }
-        public String? ProductName { get; set; } = String.Empty;
-        public decimal Price { get; set; }
+        public int ProductId { get; init; }
+        public String? ProductName { get; init; } = String.Empty;
+        public decimal Price { get; init; }
 
-        public int? CategoryId { get; set; }
+        public int? CategoryId { get; init; }
     }
 }

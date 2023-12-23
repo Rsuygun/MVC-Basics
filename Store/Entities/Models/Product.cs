@@ -3,15 +3,15 @@
 namespace Entities.Models;
 public class Product
 {
-    public int ProductId { get; init; }
-    
+    public int ProductId { get; set; }
+
     [Required(ErrorMessage = "ProductName is required")]
-    public String? ProductName { get; init; } = String.Empty;
+    public String? ProductName { get; set; } = String.Empty;
     
     [Required(ErrorMessage = "Price is required")]
-    public decimal Price { get; init; }
+    public decimal Price { get; set; }
 
-    public int? CategoryId { get; init; }    //Foreign Key
+    public int? CategoryId { get; set; }    //Foreign Key
 
-    public Category? Category { get; init; }     //Navigation Property
+    public Category? Category { get; set; }     //Navigation Property
 }

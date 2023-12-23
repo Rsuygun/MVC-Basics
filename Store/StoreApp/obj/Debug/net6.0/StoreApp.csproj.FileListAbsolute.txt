@@ -83,3 +83,5 @@ C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debu
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\Services.dll
 C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\Services.pdb
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\rsuyg\OneDrive\Masaüstü\Rsuygun\Odev-Ders\MVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
