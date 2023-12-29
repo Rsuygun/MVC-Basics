@@ -10,6 +10,8 @@ public class Product
     
     [Required(ErrorMessage = "Price is required")]
     public decimal Price { get; set; }
+    public String? Summary { get; set; } = String.Empty;
+    public String? ImageUrl { get; set; }
 
     public int? CategoryId { get; set; }    //Foreign Key
 
