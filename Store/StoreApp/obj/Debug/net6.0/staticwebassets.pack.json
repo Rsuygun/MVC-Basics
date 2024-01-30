@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\computer.jpg"
     },
     {
+      "Id": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\images\\laptop.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop.jpg"
+    },
+    {
       "Id": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
