@@ -35,5 +35,6 @@ app.UseEndpoints(endpoints =>
     endpoints.MapRazorPages();
 });
 
+app.ConfigureLocalization();
 app.ConfigureAndCheckMigration();
 app.Run();
