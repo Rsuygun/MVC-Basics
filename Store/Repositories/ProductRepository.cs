@@ -2,10 +2,12 @@ using Entities.Models;
 using Entities.RequestParameters;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
+using Repositories.Extensions;
 
 namespace Repositories
 {
-    public class ProductRepository : RepositoryBase<Product>, IProductRepository
+    //sealed bir daha kalıtılma işlemi yapılamayacağını gösterir
+    public sealed class ProductRepository : RepositoryBase<Product>, IProductRepository
     {
         public ProductRepository(RepositoryContext context) : base(context)
         {
@@ -21,14 +23,9 @@ namespace Repositories
 
         public IQueryable<Product> GetAllProductsWithDetails(ProductRequestParameters p)
         {
-            return p.CategoryId is null 
-                ? _context 
-                    .Products
-                    .Include(prd => prd.Category)
-                : _context
-                    .Products
-                    .Include(prd => prd.Category)
-                    .Where(prd => prd.CategoryId.Equals(p.CategoryId));
+            return _context
+                .Products
+                .FilteredByCategoryId(p.CategoryId);
         }
 
         //Ineterface
