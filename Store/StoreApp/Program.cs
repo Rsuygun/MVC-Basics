@@ -39,4 +39,5 @@ app.UseEndpoints(endpoints =>
 
 app.ConfigureLocalization();
 app.ConfigureAndCheckMigration();
+app.ConfigureDefaultAdminUser();
 app.Run();
