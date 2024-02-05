@@ -1,3 +1,4 @@
+using Entities.Dtos;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using StoreApp.Models;
@@ -46,6 +47,42 @@ namespace StoreApp.Controllers
         {
             await _signInManager.SignOutAsync();
             return Redirect(ReturnUrl);
+        }
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register([FromForm] RegisterDto model)
+        {
+            var user = new IdentityUser
+            {
+                UserName = model.UserName,
+                Email = model.Email
+            };
+            var result = await _userManager
+                .CreateAsync(user, model.Password);
+
+            if (result.Succeeded)
+            {
+                var roleResult = await _userManager
+                    .AddToRoleAsync(user, "User");
+
+                if (roleResult.Succeeded)
+                {
+                    return RedirectToAction("Login", new { ReturnUrl = "/"});
+                }
+            }
+            else
+            {
+                foreach (var err in result.Errors)
+                {
+                    ModelState.AddModelError("", err.Description);
+                }
+            }
+            return View();
         }
     }
 }
