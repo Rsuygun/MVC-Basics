@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "L/fafrD/8LGsrOQegFJK+ITCXkBYocElzcfGG1H0YWTIjxWckhml6OpL4318Umq8pBrEC11toR98BXykGQ91HA==",
+  "dgSpecHash": "BS1wjxUBpd1rw0ZtYTjn8A79AJ8ThNWZKae32CWr/C/6GINSV15FNJw5jbneEh/Tt0//w2JfWJud+nj8ilibMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rsuyg\\OneDrive\\Masaüstü\\Rsuygun\\Odev-Ders\\MVC\\Store\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
+    "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",
+    "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.3\\microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
@@ -17,6 +20,8 @@
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.0\\microsoft.extensions.identity.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.0\\microsoft.extensions.identity.stores.6.0.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\rsuyg\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
