@@ -1,9 +1,12 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 
 namespace StoreApp.Areas.Admin.Contollers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Admin")]
+
     public class OrderController : Controller
     {
         private readonly IServiceManager _manager;
