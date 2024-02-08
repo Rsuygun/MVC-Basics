@@ -1,7 +1,7 @@
 @model IEnumerable<IdentityUser>
 
 <div class="text-center my-5">
-    <div class="display-6">Users</div>
+    <div class="display-6 border-bottom">Users</div>
 </div>
 
 <div class="d-flex justify-content-end">
@@ -30,7 +30,7 @@
                 <td>
                     <div class="btn-group">
                         <a class="btn btn-sm btn-warning" asp-action="Update" asp-route-id="@user.UserName">Edit</a>
-                        <a class="btn btn-sm btn-info">Reset Password</a>
+                        <a class="btn btn-sm btn-info" asp-action="ResetPassword" asp-route-id="@user.UserName">Reset Password</a>
                         <a class="btn btn-sm btn-danger">Delete</a>
                     </div>
                 </td>
