@@ -7,11 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Services.Contracts;
 using StoreApp.Models;
 
-namespace StoreApp.Areas.Admin.Contollers
+namespace StoreApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")]
-
+    [Authorize(Roles ="Admin")]
     public class ProductController : Controller
     {
         private readonly IServiceManager _manager;
@@ -23,6 +22,8 @@ namespace StoreApp.Areas.Admin.Contollers
 
         public IActionResult Index([FromQuery] ProductRequestParameters p)
         {
+            ViewData["Title"] = "Products";
+
             var products = _manager.ProductService.GetAllProductsWithDetails(p);
             var pagination = new Pagination()
             {
@@ -39,6 +40,7 @@ namespace StoreApp.Areas.Admin.Contollers
 
         public IActionResult Create()
         {
+            TempData["info"] = "Please fill the form.";
             ViewBag.Categories = GetCategoriesSelectList();
             return View();
         }
@@ -49,16 +51,17 @@ namespace StoreApp.Areas.Admin.Contollers
         {
             if (ModelState.IsValid)
             {
-                //file operation
+                // file operation
                 string path = Path.Combine(Directory.GetCurrentDirectory(),
-                "wwwroot", "images", file.FileName);
+                "wwwroot","images",file.FileName);
 
-                using (var stream = new FileStream(path, FileMode.Create))
+                using (var stream = new FileStream(path,FileMode.Create))
                 {
                     await file.CopyToAsync(stream);
                 }
-                productDto.ImageUrl = String.Concat("/images/", file.FileName);
+                productDto.ImageUrl = String.Concat("/images/",file.FileName);
                 _manager.ProductService.CreateProduct(productDto);
+                TempData["success"] = $"{productDto.ProductName} has been created.";
                 return RedirectToAction("Index");
             }
             return View();
@@ -75,33 +78,38 @@ namespace StoreApp.Areas.Admin.Contollers
         {
             ViewBag.Categories = GetCategoriesSelectList();
             var model = _manager.ProductService.GetOneProductForUpdate(id, false);
+            ViewData["Title"] = model?.ProductName;
             return View(model);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update([FromForm] ProductDtoForUpdate productDto, IFormFile file)
         {
             if (ModelState.IsValid)
             {
-                //file operation
+                // file operation
                 string path = Path.Combine(Directory.GetCurrentDirectory(),
-                "wwwroot", "images", file.FileName);
+                "wwwroot","images",file.FileName);
 
-                using (var stream = new FileStream(path, FileMode.Create))
+                using (var stream = new FileStream(path,FileMode.Create))
                 {
                     await file.CopyToAsync(stream);
                 }
-                productDto.ImageUrl = String.Concat("/images/", file.FileName);
+                productDto.ImageUrl = String.Concat("/images/",file.FileName);
+
                 _manager.ProductService.UpdateOneProduct(productDto);
                 return RedirectToAction("Index");
             }
             return View();
         }
 
+
         [HttpGet]
         public IActionResult Delete([FromRoute(Name = "id")] int id)
         {
             _manager.ProductService.DeleteOneProduct(id);
+            TempData["danger"] = "The product has been removed.";
             return RedirectToAction("Index");
         }
     }
